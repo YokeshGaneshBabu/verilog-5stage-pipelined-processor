@@ -10,10 +10,10 @@ module ControlUnit (opcode,RegDst,branch,Memread,MemtoReg,ALUop,MemWrite,AluSrc,
   parameter lw=6'b100011;
   parameter sw=6'b101011;
   parameter beq=6'b000100;
-  parameter addi = 6'b001000; //aluop same as sw and lw
-  parameter andi = 6'b001100; //aluop 0011
-  parameter ori = 6'b001101;//aluop 0100
-  parameter slti = 6'b001010;//aluop 0101
+  parameter addi = 6'b001000; 
+  parameter andi = 6'b001100;
+  parameter ori = 6'b001101;
+  parameter slti = 6'b001010;
 
   always @(posedge reset)
   begin
@@ -76,7 +76,7 @@ module ControlUnit (opcode,RegDst,branch,Memread,MemtoReg,ALUop,MemWrite,AluSrc,
         beq:           
 
           begin
-          //RegDst<=1'bx ;
+       
           branch<= 1;
           Memread<=0 ;
           MemtoReg<=0 ;
