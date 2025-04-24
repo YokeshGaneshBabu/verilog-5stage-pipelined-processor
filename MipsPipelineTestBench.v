@@ -75,8 +75,6 @@ Mem_WbReg MEM_WB(RegWriteMEM, MemtoRegMEM, ALUResultMEM, clk, memoryReadDataMEM,
 Mux2x1_32Bits writeBackMux(regWriteDataMEM, ALUResultWB, memoryReadDataWB, MemtoRegWB);
 
 
-
-//pc updated, change in singel cycle testbench
 always@(clk)
 #100 clk <= ~clk;
 
