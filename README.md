@@ -81,6 +81,6 @@ All modules are custom-coded and verified in isolation before integration.
 
 ## 👨‍💻 Authors
 
-Yokesh G 
-Hariharan Nagarajan
-Harikrisshna 
+- Yokesh G 
+- Hariharan Nagarajan
+- Harikrisshna 
