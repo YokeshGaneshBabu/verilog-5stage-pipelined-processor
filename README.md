@@ -43,10 +43,6 @@ All modules are custom-coded and verified in isolation before integration.
 4. **Memory Access** – Read/write data from/to memory  
 5. **Write Back** – Update register file with the result
 
-![image](https://github.com/user-attachments/assets/70414aad-9e26-4fb2-b8bb-a4e90585d307)
-
-
-
 ---
 
 ## 🧪 Simulation & Testing
