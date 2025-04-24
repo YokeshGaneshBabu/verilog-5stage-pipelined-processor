@@ -57,18 +57,15 @@ All modules are custom-coded and verified in isolation before integration.
 ## 📚 Instruction Format
 
 ### R-Type (e.g. `ADD`, `SUB`)
-- | 31-26 | 25-21 | 20-16 | 15-11 | 10-6 | 5-0 | |Opcode| rs | rt | rd |shamt|funct|
+- | 31-26 | 25-21 | 20-16 | 15-11 | 10-6 | 5-0 | 
+- |Opcode| rs | rt | rd |shamt|funct|
 
-less
-Copy
-Edit
+
 
 ### I-Type (e.g. `LW`, `SW`, `BEQ`)
-- | 31-26 | 25-21 | 20-16 | 15-0 | |Opcode| rs | rt | immediate |
+- | 31-26 | 25-21 | 20-16 | 15-0 | 
+- |Opcode| rs | rt | immediate |
 
-yaml
-Copy
-Edit
 
 ---
 
