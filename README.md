@@ -42,7 +42,8 @@ All modules are custom-coded and verified in isolation before integration.
 3. **Execution** – Perform ALU operations, compute branch targets  
 4. **Memory Access** – Read/write data from/to memory  
 5. **Write Back** – Update register file with the result
-- ![image](https://github.com/user-attachments/assets/70414aad-9e26-4fb2-b8bb-a4e90585d307)
+
+![image](https://github.com/user-attachments/assets/70414aad-9e26-4fb2-b8bb-a4e90585d307)
 
 
 
@@ -54,7 +55,8 @@ All modules are custom-coded and verified in isolation before integration.
 - Clock toggled every 100ns
 - Custom testbench includes `ADD`, `SUB`, `LW`, `SW`, `BEQ`, and `NOP` instructions
 - Waveform analysis used for verification
-- ![image](https://github.com/user-attachments/assets/a50d7ec6-5dec-455e-9f6c-dec59e20616f)
+
+![image](https://github.com/user-attachments/assets/a50d7ec6-5dec-455e-9f6c-dec59e20616f)
 
 
 ---
