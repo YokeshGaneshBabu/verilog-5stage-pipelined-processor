@@ -19,7 +19,7 @@ proc create_popup {} {
 proc include_buttons {parent} {
     add_frame $parent "Control"
     add_button $parent "Create Library"  {vlib work; vmap work work}
-    add_button $parent "Compile"         {vlog D:/lol/MipsPipelineTestBench.v}
+    add_button $parent "Compile"         {vlog D:/scripting_verification/MipsPipelineTestBench.v}
     add_button $parent "Load Simulation" {vsim -voptargs=+acc work.MipsPipelineTestBench}
     add_button $parent "Wave Window"     {add wave -r /*}
     add_button $parent "Quit"            {quit -force}
@@ -57,3 +57,4 @@ set buttons(widget_count) 1
 
 # Create the popup window
 create_popup
+
