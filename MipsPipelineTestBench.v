@@ -28,11 +28,10 @@ $time,
 dut.readPC,
 dut.instructionIF);
 end
-
-// finish early (no xxxx spam)
 initial begin
 #300;
 $finish;
 end
+
 
 endmodule
