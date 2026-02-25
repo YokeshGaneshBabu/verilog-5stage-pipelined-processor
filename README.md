@@ -81,9 +81,3 @@ All modules are custom-coded and verified in isolation before integration.
 - Cache simulation
 
 ---
-
-## 👨‍💻 Authors
-
-- Yokesh G 
-- Hariharan Nagarajan
-- Harikrisshna 
